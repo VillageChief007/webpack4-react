@@ -1,0 +1,16 @@
+.my-node-enter {
+  height: 0;
+}
+.my-node-enter-active {
+  height: 20px;
+  overflow: hidden;
+  transition: height 200ms;
+}
+.my-node-exit {
+  height: 20px;
+  overflow: hidden;
+}
+.my-node-exit-active {
+  height: 0;
+  transition: height 200ms;
+}
